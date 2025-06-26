@@ -1,1 +1,1 @@
-vedio demonstration of project
+video demonstration of project
