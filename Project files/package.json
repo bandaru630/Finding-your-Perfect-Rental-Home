@@ -1,0 +1,17 @@
+{
+  "name": "househunt-root",
+  "version": "1.0.0",
+  "description": "Root project for HouseHunt app - running frontend and backend together",
+  "main": "index.js",
+  "scripts": {
+  "start": "npm run dev",
+  "dev": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend\""
+},
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "author": "Siva Sanjay",
+  "license": "ISC"
+}
+
+
